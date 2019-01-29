@@ -74,11 +74,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'mysql:dbname=数据库名称;host=数据库地址',
-	'hostname' => '数据库地址',
-	'username' => '数据库用户名',
-	'password' => '数据库密码',
-	'database' => '数据库名称',
+	'dsn'	=> 'mysql:dbname=blog;host=127.0.0.1',
+	'hostname' => 'blog',
+	'username' => 'root',
+	'password' => 'daniel@123',
+	'database' => 'blog',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

@@ -26,11 +26,11 @@ class Send_Email {
         //SMTP 服务器地址。
         $this->config['smtp_host'] = 'ssl://smtp.qq.com';
         //发件人邮箱地址
-        $this->config['smtp_user'] = '';
+        $this->config['smtp_user'] = 'admin@ly724300.com';
         //腾讯QQ邮箱开启POP3/SMTP服务或者IMAP/SMTP服务时的授权码
-        $this->config['smtp_pass'] = '';
+        $this->config['smtp_pass'] = 'nxobwdwxzmedbghj';
         //发件人名称
-        $this->config['smtp_name'] = 'CodeBear博客';
+        $this->config['smtp_name'] = 'Daniel博客';
         //SMTP 端口
         $this->config['smtp_port'] = 465;
         //邮件类型。html网页或者text纯文本
