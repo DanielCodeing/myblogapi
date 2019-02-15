@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> 'mysql:dbname=blog;host=127.0.0.1',
-	'hostname' => 'blog',
+	'hostname' => '127.0.0.1',
 	'username' => 'root',
 	'password' => 'daniel@123',
 	'database' => 'blog',
